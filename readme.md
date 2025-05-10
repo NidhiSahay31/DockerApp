@@ -1,3 +1,4 @@
+# Steps executed till now ...
 ## build an image
   docker build -t <image_name> .
 ## build container
