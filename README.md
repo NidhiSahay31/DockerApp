@@ -1,7 +1,7 @@
 ## build an image
-  docker build -t <image_name> .
+    docker build -t <image_name> .
 ## build container
-   docker run -p <url_port>:<exposed_port> <image_name>
+    docker run -p <url_port>:<exposed_port> <image_name>
    ### remove container when it gets stopped automatically
     docker run -p <url_port>:<exposed_port> --rm <image_name>
    ### create custom container name
