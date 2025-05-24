@@ -2,5 +2,5 @@ FROM node:latest
 WORKDIR /app
 COPY . /app
 RUN npm install
-EXPOSE 90
+EXPOSE 80
 CMD ["npm", "start"]
